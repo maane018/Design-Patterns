@@ -1,0 +1,1 @@
+This repository contains some of the design patterns that I have explored till now.
