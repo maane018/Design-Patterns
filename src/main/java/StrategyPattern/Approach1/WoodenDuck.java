@@ -1,6 +1,6 @@
 package StrategyPattern.Approach1;
 
-public class WoodenDuck implements Duck{
+public class WoodenDuck implements Duck {
     @Override
     public void fly() {
 //        Problem 2: This class is not supposed to fly either. So overriding this behavior to do nothing.

@@ -8,7 +8,7 @@ public class MallardDuck {
     public void quack() {
         System.out.println("This is Quack behavior 1");
     }
-    
+
     public void run() {
         System.out.println("This is Run behavior 1");
     }

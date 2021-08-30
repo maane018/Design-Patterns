@@ -1,8 +1,6 @@
 Approach Description:
 
-`So, in our previous approaches, we discovered that fly() and quack() behaviors are different. And we should not force the behaviors on a particular class.
-What can do instead is, create a new interface Flyable() and Quackable().
-Whichever Duck wants to have these behaviors can implement these, hence we are not forcing the behavior now.`
+`So, in our previous approaches, we discovered that fly() and quack() behaviors are different. And we should not force the behaviors on a particular class. What can do instead is, create a new interface Flyable() and Quackable(). Whichever Duck wants to have these behaviors can implement these, hence we are not forcing the behavior now.`
 
 Pros of this approach:
 
@@ -15,6 +13,6 @@ Cons of this approach:
 3. `Contracts are not defined.`
 4. `Runtime Behavior changes are difficult.`
 
-
 Learnings:
+
 1. `Solution for inheritance problems is not more inheritance`
