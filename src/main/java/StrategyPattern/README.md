@@ -8,14 +8,13 @@ Interchangeable: `We can easily use FlyBehavior1 over 2, without any changes in 
 Lets algorithm vary independently of clients: `We can have any logic change in FlyBehavior1() and it won't affect anything to the Duck which has this behavior.` <br>
 
 
-**Other solutions?**
+**Other solutions?** <br>
 1. 
     We can have other approaches, where we have a big tree with different types of behaviors. This approach uses inheritance as code-reuse mechanism.
     Consider duck behavior as D1 and let's assume we have 2 fly behaviors F1 and F2.
     So, we can have a tree with root as D1, then children as D1F1 and D1F2.
 
-    D1F1 will be implemented by MallardDuck and City Duck (if they have common behavior i.e D1 and FlyBehavior 1)
-
+    D1F1 will be implemented by MallardDuck and City Duck (if they have common behavior i.e D1 and FlyBehavior 1).
     Similarly, D1F2 will be implemented by RubberDuck if it wants D1 and F2 as Fly behavior.
    
 
