@@ -1,7 +1,6 @@
 package StrategyPattern.Approach1;
 
-public class RubberDuck implements Duck {
-    @Override
+public class RubberDuck extends Duck {
     public void fly() {
 //        Problem 2: Since RubberDucks cannot fly, we don't want this method in our class.
 //        But since we are implementing from Duck, we are forced to implement this method and hence this method is empty.
@@ -13,13 +12,16 @@ public class RubberDuck implements Duck {
 //        We can only control what our service exposes.
     }
 
-    @Override
     public void quack() {
         System.out.println("This is Quack Behavior 2");
     }
 
-    @Override
     public void run() {
         System.out.println("This is Run Behavior 2");
+    }
+
+    public void entertain() {
+//        Problem 4: What why? Why is there entertain behavior of duck, what if other classes want this too?
+        System.out.println("Hey I am entertaining");
     }
 }

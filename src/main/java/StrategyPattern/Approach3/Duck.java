@@ -1,5 +1,5 @@
 package StrategyPattern.Approach3;
 
-public interface Duck {
-    void run();
+public abstract class Duck {
+    abstract void run();
 }

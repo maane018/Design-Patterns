@@ -1,9 +1,13 @@
 package StrategyPattern.Approach1;
 
-public interface Duck {
-    void fly();
+public abstract class Duck {
+    abstract void fly();
 
-    void quack();
+    abstract void quack();
 
-    void run();
+    abstract void run();
+
+    void animalName() {
+        System.out.println("This is a duck");
+    }
 }

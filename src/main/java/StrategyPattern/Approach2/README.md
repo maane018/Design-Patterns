@@ -13,6 +13,8 @@ Cons of this approach:
 2. `Duplicate/Redundant behavior is still shared across various implementations.`
 3. `Runtime Behavior changes are difficult.`
 4. `Contract is breached now. We have VillageDuck with no fly behavior present [Which is just wrong].`
+5. `Some classes can have weird/extra behaviors too, even when it's not needed.`
+
 
 Learnings:
 

@@ -11,6 +11,8 @@ Cons of this approach:
 1. `Duplicate/Redundant behavior shared across various implementations`
 2. `Some behavior is forced on some classes, even when the class should not have this behavior.`
 3. `Runtime Behavior changes are difficult.`
+4. `Some classes can have weird/extra behaviors too, even when it's not needed.`
+
 
 Learnings:
 

@@ -12,6 +12,7 @@ Cons of this approach:
 2. `Some classes can have weird behaviors too, even when it's not needed.`
 3. `Some classes can have missing behaviors too, even when it's needed.`
 4. `Runtime Behavior changes are difficult.`
+5. `Class explosion. Can become unmanageable with more classes.`
 
 Learnings:
 

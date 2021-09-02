@@ -1,7 +1,7 @@
 package StrategyPattern.Approach2;
 
-public interface Duck {
-    void quack();
+public abstract class Duck {
+    abstract void quack();
 
-    void run();
+    abstract void run();
 }

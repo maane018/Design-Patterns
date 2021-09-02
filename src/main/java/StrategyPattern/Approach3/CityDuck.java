@@ -1,6 +1,6 @@
 package StrategyPattern.Approach3;
 
-public class CityDuck implements Duck, Flyable, Quackable {
+public class CityDuck extends Duck implements Flyable, Quackable {
     @Override
     public void fly() {
         System.out.println("This is Fly Behavior 2");

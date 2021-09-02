@@ -1,10 +1,13 @@
 package StrategyPattern.Approach3;
 
-public class WoodenDuck implements Duck {
-//    Problem 3: This class is supposed to have Quack() also but oops developer mistake
+public class WoodenDuck extends Duck implements Quackable {
 
-    @Override
     public void run() {
         System.out.println("This is Run behavior 4");
+    }
+
+    @Override
+    public void quack() {
+        System.out.println("This is quack behavior 5");
     }
 }
