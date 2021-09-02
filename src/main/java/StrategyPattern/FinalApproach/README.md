@@ -11,7 +11,7 @@ In the code, I have assumed that run behavior is same across all the ducks.
 1. We are not forcing the behavior on anybody.
 2. No duplicate/redundant code
 3. Contracts for duck are also defined
-4. Runtime behavior changes are also supported using all args constructor and constructor injection.
+4. Runtime behavior changes are also supported using all args constructor and constructor/setter injection.
 
 **Cons of this approach**:
 
