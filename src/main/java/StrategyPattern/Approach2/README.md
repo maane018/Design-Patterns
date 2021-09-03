@@ -1,7 +1,10 @@
 **Approach Description**:
 
-In the previous approach, fly() behavior was creating a problem. We had to force an "empty" implementation on the Ducks which don't fly (i.e Rubber Duck and Wooden Duck)
-So in this approach, we have removed the fly() method from the interface, so that the Duck can have the choice to implement the fly() method or not. If the duck does not fly, it doesn't have to implement that method, but if it does fly, then the duck needs to implement fly() in the implementation.
+In the previous approach, fly() behavior was creating a problem. We had to force an "empty" implementation on the Ducks
+which don't fly (i.e Rubber Duck and Wooden Duck)
+So in this approach, we have removed the fly() method from the interface, so that the Duck can have the choice to
+implement the fly() method or not. If the duck does not fly, it doesn't have to implement that method, but if it does
+fly, then the duck needs to implement fly() in the implementation.
 
 **Pros of this approach**:
 
@@ -14,7 +17,6 @@ So in this approach, we have removed the fly() method from the interface, so tha
 3. Runtime Behavior changes are difficult.
 4. Contract is breached now. We have VillageDuck with no fly behavior present [Which is just wrong].
 5. Some classes can have weird/extra behaviors too, even when it's not needed.
-
 
 **Learnings**:
 

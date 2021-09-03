@@ -11,6 +11,6 @@ public class CityDuck extends Duck {
     }
 
     CityDuck(Flyable flyBehavior, Quackable quackBehavior) {
-        super(flyBehavior,quackBehavior);
+        super(flyBehavior, quackBehavior);
     }
 }

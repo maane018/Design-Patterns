@@ -11,6 +11,6 @@ public class MallardDuck extends Duck {
     }
 
     MallardDuck(Flyable flyBehavior, Quackable quackBehavior) {
-        super(flyBehavior,quackBehavior);
+        super(flyBehavior, quackBehavior);
     }
 }

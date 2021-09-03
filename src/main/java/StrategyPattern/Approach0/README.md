@@ -1,6 +1,7 @@
 **Approach Description**:
 
-Create different classes for different types of duck. No interface, no abstract class. Just a bunch of different classes, for each type of duck.
+Create different classes for different types of duck. No interface, no abstract class. Just a bunch of different
+classes, for each type of duck.
 
 **Pros of this approach**:
 
