@@ -5,8 +5,12 @@ Use builder strategy pattern. Have a builder class inside the main class and the
 **Pros of this approach**:
 
 1. No need to mention all parameters in order.
-2. We can easily specify the mandatory vs optional parameters. The client can also specify the parameters they need, and we can have additional checks from our side regarding mandatory parameters.
+2. We can easily specify the mandatory vs optional parameters. No need to include additional checks from our side.
 3. Thread safe
+4. Important: In case we need a complex representation, builder pattern will be able to help us out here.
+Eg: List<int> so either we take a list from user, or just addElement(6).addElement(9).... will add it to list.
+This is generally used in adding elements to a plain ArrayList too. new ArrayList().put(6).put(7)...
+This way, this pattern gives more flexibility to users on how to create object.
 
 **Cons of this approach**:
 

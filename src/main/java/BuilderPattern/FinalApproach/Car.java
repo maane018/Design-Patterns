@@ -32,16 +32,8 @@ public class Car {
         public String company;
         public boolean isReleased;
 
-        private Builder() {
-        }
-
-        public static Builder newInstance() {
-            return new Builder();
-        }
-
-        public Builder setName(String name) {
+        public Builder(String name) {
             this.name = name;
-            return this;
         }
 
         public Builder setLength(int length) {
