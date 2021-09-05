@@ -15,10 +15,14 @@ We can also have a priority list with the subscribers, so the subscriber with mo
 2. The subscribers can subscribe to multiple observables, but for each of them, we'll have to create a new update method.
 3. Let's say subscriber does not want the updated value at once, or has additional checks for showing updated value, then our implementation is not good.
 We have forced subscriber to take the value whether it wants or not.
+4. Let's say we have a sensor which sends out multiple values, but we need only 1 of them. Then we'll have to change update method implementation and take all parameters, even when we need one only.
+5. Loosely coupled code. Even if we change any logic in observable/observer, as long as contract remains same, we are good.
 
-   
+
 **Learnings:**
 1. Program to interface, not implementations.
 2. Give an option to clients if they want your data or not.
 3. Generally push mechanism is better than poll mechanism.
+4. Try to create loosely coupled classes.
+
 

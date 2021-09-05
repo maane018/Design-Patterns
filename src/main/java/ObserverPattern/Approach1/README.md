@@ -14,6 +14,7 @@ So, we can do this via push-pull method of Observer method.
 4. No need to poll the subscriptions continuously for an update. The subscription will automatically tell clients that we have an update, please see if you want to.
 5. Currently, subscription is storing all subscribers in list i.e there is no preference. All the clients will be treated equally and first come first serve.
 We can also have a priority list with thr subscribers, so the subscriber with most priority will be notified first.
+6. Loosely coupled code. Even if we change any logic in observable/observer, as long as contract remains same, we are good.
 
 **Cons of this approach**:
 
@@ -21,4 +22,5 @@ We can also have a priority list with thr subscribers, so the subscriber with mo
 1. Program to interface, not implementations.
 2. Give an option to clients if they want your data or not.
 3. Generally push mechanism is better than poll mechanism.
+4. Try to create loosely coupled classes.
 
