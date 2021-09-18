@@ -12,7 +12,7 @@ public class WeatherStation {
         System.out.println(this.humidity);
     }
 
-    public void update(int temperature, int humidity){
+    public void update(int temperature, int humidity) {
         this.temperature = temperature;
         this.humidity = humidity;
     }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WeatherStation implements Observer {
-//    List of all the observables
+    //    List of all the observables
     List<Observable> observables;
     List<Integer> values;
 

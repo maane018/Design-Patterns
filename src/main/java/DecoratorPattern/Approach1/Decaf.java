@@ -14,21 +14,22 @@ public class Decaf extends Beverage {
 
     public String getDescription() {
         String baseString = "This is decaf coffee ";
-        if(hasChocolate)
+        if (hasChocolate)
             baseString = baseString + "with chocolate";
-        if(hasCoffee)
+        if (hasCoffee)
             baseString = baseString + "with coffee";
-        if(hasCream)
+        if (hasCream)
             baseString = baseString + "with cream";
         return baseString;
     }
-    public int cost(){
+
+    public int cost() {
         int cost = 5;
-        if(hasChocolate)
+        if (hasChocolate)
             cost = cost + 10;
-        if(hasCoffee)
+        if (hasCoffee)
             cost = cost + 5;
-        if(hasCream)
+        if (hasCream)
             cost = cost + 10;
         return cost;
     }

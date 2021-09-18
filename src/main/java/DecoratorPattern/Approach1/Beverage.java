@@ -10,9 +10,11 @@ public abstract class Beverage {
         this.hasCoffee = hasCoffee;
         this.hasCream = hasCream;
     }
+
     public String getDescription() {
         return "Coffee";
     }
+
     public int cost() {
         return 10;
     }

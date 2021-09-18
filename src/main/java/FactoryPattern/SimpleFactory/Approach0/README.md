@@ -4,7 +4,6 @@ We create 2 pizza shops, which will take care of everything. No relation what so
 
 **Pros of this approach**:
 
-
 **Cons of this approach**:
 
 1. Redundant code

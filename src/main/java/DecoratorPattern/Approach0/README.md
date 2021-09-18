@@ -1,13 +1,8 @@
 **Approach Description**:
 
-We create a class for every possible combination.
-Decaf with chocolate
-espresso with extra coffee
-decaf
-espresso....
+We create a class for every possible combination. Decaf with chocolate espresso with extra coffee decaf espresso....
 
 **Pros of this approach**:
-
 
 **Cons of this approach**:
 

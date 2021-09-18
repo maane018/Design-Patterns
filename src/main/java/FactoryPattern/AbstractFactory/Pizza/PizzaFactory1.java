@@ -1,6 +1,7 @@
-package FactoryPattern.SimpleFactory.Approach1;
+package FactoryPattern.AbstractFactory.Pizza;
 
-public class PizzaFactory {
+
+public class PizzaFactory1 implements PizzaFactory {
     Pizza pizza;
 
     public Pizza getPizza(String type) {

@@ -9,9 +9,10 @@ public class TemperatureSensor implements Observable {
     private List<Observer> registeredObservers;
     private int temperature;
 
-    public TemperatureSensor(){
+    public TemperatureSensor() {
         registeredObservers = new ArrayList<>();
     }
+
     @Override
     public void registerObserver(Observer observer) {
         registeredObservers.add(observer);

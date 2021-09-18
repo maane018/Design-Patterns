@@ -2,6 +2,7 @@ package FactoryPattern.SimpleFactory.Approach0;
 
 public class PizzaShop1 {
     Pizza pizza;
+
     void createPizza(String type) {
         if ("Cheese".equals(type)) {
             pizza = new Pizza("cheesy", 5);

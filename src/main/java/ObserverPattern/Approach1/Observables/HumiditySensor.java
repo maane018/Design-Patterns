@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HumiditySensor implements Observable {
-//    Can save it in any Data structure, either heap for priority or map for unique.
+    //    Can save it in any Data structure, either heap for priority or map for unique.
     private List<Observer> registeredObservers;
     private int humidity;
 

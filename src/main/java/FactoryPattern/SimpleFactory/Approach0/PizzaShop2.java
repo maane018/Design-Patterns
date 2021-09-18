@@ -2,6 +2,7 @@ package FactoryPattern.SimpleFactory.Approach0;
 
 public class PizzaShop2 {
     Pizza pizza;
+
     void createPizza(String type) {
 //        Problem 1+2 : What if we want to change size? Will have to change both classes.
         switch (type) {

@@ -4,9 +4,11 @@ public class Sensor {
     public int temperature;
     public int humidity;
     WeatherStation weatherStation;
+
     Sensor() {
-       weatherStation = new WeatherStation();
+        weatherStation = new WeatherStation();
     }
+
     public void setHumidity(int humidity) {
 //        This will be used by actual sensors
         this.humidity = humidity;

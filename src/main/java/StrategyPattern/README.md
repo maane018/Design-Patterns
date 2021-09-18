@@ -12,6 +12,7 @@ clients: `We can have any logic change in FlyBehavior1() and it won't affect any
 **Other solutions?** <br>
 
 1.
+
 We can have other approaches, where we have a big tree with different types of behaviors. This approach uses inheritance
 as code-reuse mechanism. Consider duck behavior as D1 and let's assume we have 2 fly behaviors F1 and F2. So, we can
 have a tree with root as D1, then children as D1F1 and D1F2.
@@ -25,6 +26,7 @@ Similarly, D1F2 will be implemented by RubberDuck if it wants D1 and F2 as Fly b
     3. Let's say if we have some changes in Fly Behavior 1, we'll need to find all the ducks which use that behavior. And then possibly change them.
 
 2.
+
 We can use multiple inheritance too. Let's say we have a class FlyBehavior1(), and then FlyBehavior2(), and similarly
 QuackBehavior1() and 2(). So we can have a duck which wants to inherit these 2 behaviors i.e Duck, QuackBehavior1 and
 FlyBehavior2.

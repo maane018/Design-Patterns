@@ -3,7 +3,7 @@ package ObserverPattern.Approach0;
 public class WeatherStation {
     public int temperature;
     public int humidity;
-//    Problem 1: Tied to an implementation
+    //    Problem 1: Tied to an implementation
 //    Problem 2: Implementation is tied to an implementation, basically WeatherStation to Sensor
     Sensor sensor;
 
