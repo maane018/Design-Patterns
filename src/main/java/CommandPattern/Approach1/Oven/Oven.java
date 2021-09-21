@@ -1,4 +1,4 @@
-package CommandPattern.Approach0;
+package CommandPattern.Approach1.Oven;
 
 public class Oven {
     public void heatUp() {

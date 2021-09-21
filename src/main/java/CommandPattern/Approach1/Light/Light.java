@@ -1,4 +1,4 @@
-package CommandPattern.Approach0;
+package CommandPattern.Approach1.Light;
 
 public class Light {
     public void turnOn() {

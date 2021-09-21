@@ -1,4 +1,4 @@
-package CommandPattern.Approach0;
+package CommandPattern.Approach1.Alexa;
 
 public class Alexa {
     public void on() {

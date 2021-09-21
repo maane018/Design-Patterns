@@ -7,7 +7,7 @@ Push mechanism Assumption: Subject knows about the subscribers (is it even as as
 **Other solutions?** <br>
 
 1. Can use Java's own observable and subject libraries. Only available in old Java versions. Deprecated now, after Java
-   9.
+    9.
    [Link 1](https://www.infoworld.com/article/2077258/observer-and-observable.html)
    [Link 2](https://www.geeksforgeeks.org/java-util-observable-class-java/)
    We can use this for changing the mechanism to pull also.

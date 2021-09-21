@@ -7,7 +7,8 @@ public class Remote {
     Alexa fourthButton;
     Oven fifthButton;
     Oven sixthButton;
-//    Problem 1: Why is everything hardcoded? If tomorrow the third button has to be changed or logic change, then code change
+
+    //    Problem 1: Why is everything hardcoded? If tomorrow the third button has to be changed or logic change, then code change
     public Remote() {
         firstButton = new Light();
         secondButton = new Light();
@@ -16,18 +17,19 @@ public class Remote {
         fifthButton = new Oven();
         sixthButton = new Oven();
     }
-    public void push(int buttonNumber){
-        if(buttonNumber==1)
+
+    public void push(int buttonNumber) {
+        if (buttonNumber == 1)
             firstButton.turnOn();
-        else if(buttonNumber==2)
+        else if (buttonNumber == 2)
             secondButton.turnOff();
-        else if(buttonNumber==3)
+        else if (buttonNumber == 3)
             thirdButton.on();
-        else if(buttonNumber==4)
+        else if (buttonNumber == 4)
             fourthButton.off();
-        else if(buttonNumber==5)
+        else if (buttonNumber == 5)
             fifthButton.heatUp();
-        else if(buttonNumber==6)
+        else if (buttonNumber == 6)
             sixthButton.heatDown();
 
     }
